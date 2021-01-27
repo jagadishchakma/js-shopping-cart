@@ -62,11 +62,13 @@ leftProduct.addEventListener('click', () => {
             const elementValueTotal = elementValue + 59;
             document.getElementById(id).textContent = elementValueTotal;
         }
-        addiPhone11Black('iPhone11BlackValue', iPhone11BlackValue);
+        addiPhone11Black('iPhone11BlackValue1', iPhone11BlackValue);
         addiPhone11Black('subTotal', iPhone11BlackValue);
         addiPhone11Black('total', iPhone11BlackValue);
        
     });
+
+
     // decrease product
     const leftProduct2 = document.getElementById('leftProduct2');
     leftProduct2.addEventListener('click', () => {
