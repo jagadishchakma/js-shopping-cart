@@ -86,7 +86,7 @@ leftProduct.addEventListener('click', () => {
                 const elementValueTotal = elementValue - ammount;
                 document.getElementById(id).textContent = elementValueTotal;
             }
-            addiPhone11Black('iPhone11BlackValue', iPhone11BlackValue);
+            addiPhone11Black('iPhone11BlackValue1', iPhone11BlackValue);
             addiPhone11Black('subTotal', iPhone11BlackValue);
             addiPhone11Black('total', iPhone11BlackValue);
         }
